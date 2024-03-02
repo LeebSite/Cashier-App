@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="APLIKASI HITUNG BALOK SEDERHANA"
+        android:textColor="#00008B"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="32dp"
+        android:hint="Length"
+        android:textColorHint="@color/cardview_dark_background"/>
+
+    <EditText
+        android:id="@+id/etWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="Width"
+        android:textColorHint="@color/cardview_dark_background"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etHeigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="Heigh"
+        android:textColorHint="@color/cardview_dark_background"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvPernyataan"
+        android:layout_marginTop="15dp"
+        android:text="ayo hitung !"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            android:id="@+id/btnVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:text="Volume" />
+
+
+        <Button
+            android:id="@+id/btnLuas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_toEndOf="@id/btnVolume"
+            android:text="Luas" />
+
+        <Button
+            android:id="@+id/btnKeliling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_toEndOf="@id/btnLuas"
+            android:text="Keliling" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:text="Result"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

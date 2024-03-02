@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="kuning">#FFB534</color>
+    <color name="softgrey">#F8F8F8</color>
+    <color name="maroon">#B80000</color>
+    <color name="gold">#FFD34C</color>
+    <color name="silver">#E6E4E3</color>
+    <color name="bronze">#ECA77F</color>
+    <color name="selected_color">#FF4081</color>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnHp1" type="id">25000</item>
+    <item name="btnHp2" type="id">15000</item>
+    <item name="btnHp3" type="id">30000</item>
+    <item name="btnHp4" type="id">10000</item>
+
+</resources>

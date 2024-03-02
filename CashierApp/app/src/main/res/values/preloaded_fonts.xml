@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo_black</item>
+        <item>@font/chakra_petch_semibold</item>
+        <item>@font/changa_one</item>
+        <item>@font/dm_mono_medium</item>
+        <item>@font/jost_medium</item>
+        <item>@font/montserrat_medium</item>
+        <item>@font/montserrat_semibold_italic</item>
+        <item>@font/niramit_medium</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_semibold</item>
+    </array>
+</resources>
